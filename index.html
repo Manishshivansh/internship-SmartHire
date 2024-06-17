@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="fullscreen-message" class="first-box">
+        <div>Please enable fullscreen to start the quiz.</div>
+        <div><button id="fullscreen-button">Enable Fullscreen</button></div>
+ 
+    </div>
+    <div id="quiz-container" class="hidden">
+        <div id="timer">Time left: 10:00</div>
+        <h1 id="question-container"></h1>
+        <div class="choice-container" id="options-container"></div>
+        <button id="next-button">Next</button>
+    </div>
+    <div id="result-container" class="hidden">
+        <!-- This div will be populated with quiz results dynamically -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
